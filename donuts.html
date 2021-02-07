@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Donuts</title>
+<link rel="icon" href="https://cdn.discordapp.com/avatars/122767219464601603/7f7b14aeafe2be7abc43c94b7bb0f9a3.png?size=128">
+  <style>
+    html, body {
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      color: #F5C66E;
+      background-color: #C45D55;
+    }
+    .main {
+      width: 100%;
+      height: 100vh;
+      background-color: indianred;
+      background-image: url(https://cdn.discordapp.com/attachments/638241126528319498/702271367487422504/chocolate_dip_donut.png);
+      background-size: cover;
+      background-position: center; 
+      background-repeat: no-repeat;
+      padding: 0;
+      margin: 0;
+    }
+    .title {
+      animation: fadeIn ease 1s;
+      -webkit-animation: fadeIn ease 1s;
+      text-align: center;
+      font-family: 'Franklin Gothic Bold', 'Arial Black', 'sans-serif';
+
+      color: #F5C66E;
+      font-size: 15.5vw;
+      margin: 0;
+      padding-top: 150px;
+      font-weight: 300;
+    }
+    .info {
+      z-index: 200;
+      color: #F5C66E;
+      position: absolute;
+      bottom: 35px;
+      text-align: center;
+      width: 100%;
+      
+      animation: fadeIn ease 6s;
+      -webkit-animation: fadeIn ease 6s;
+    }
+    .info:hover {
+      color: black;   
+    }
+    .price {
+      font-size: 60px;
+      
+      animation: fadeIn ease 4s;
+      -webkit-animation: fadeIn ease 4s;
+    }
+    @-webkit-keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+    }
+    @keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+    }
+  </style>
+</head>
+<body>
+  <div class="main">
+    <h1 class="title">Donuts.</h1>
+    <h2 class="price">1	&euro;</h2>
+    <p class="info">theo-the-o</p>
+  </div>
+</body>
+</html>
